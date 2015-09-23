@@ -6,38 +6,49 @@ body ul {
 .octocat {
   border-bottom: 1px solid black;
     display: inline-block;
-    width: 302px;
-    float: left;
+    width: 31%;
     margin: 10px;
   }  
+
   .authors {
     float: right;
     display: inline-block;
-
+    padding-top: 3px;
   }
+
 .octocat img {
     border: 1px solid black;
-    height: 300px;
+    height: 350px;
     display: inline-block;
-    width: 300px;
-    float: left;
+    width: 427px;  
 
   }
+
+.image-footer {
+  display: block;
+}   
 
 .authors img {
     width: 20px;
     height: 20px;
     float: right;
+    border: none;
+    padding-bottom: 6px;
 
   }
 .image-caption {
-      float: ;
-      position: relative;
+      float: right;
+      vertical-align: middle;
+  }
+
+  .image-number::before {
+    content: "#" ;
   }
 
 .image-number {
   float: left;
-  }  
+  } 
+
 
  
 
